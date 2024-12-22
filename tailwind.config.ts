@@ -9,11 +9,10 @@ const config: Config = {
   ],
   theme: {
   	extend: {
-		backgroundImage: {
-			"custom-image": "URL('/images/home.svg')",
-			"custom-image-2": "url('/images/electronic.svg')",
-			
-		  },
+  		backgroundImage: {
+  			'custom-image': 'URL('/images/home.svg')',
+  			'custom-image-2': 'url('/images/electronic.svg')'
+  		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',

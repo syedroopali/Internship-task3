@@ -32,8 +32,8 @@ export default function Navbar() {
           </a>
         </div>
 
-           {/* Search Bar with Dropdown and Search Button */}
-           <div className="flex-1 hidden md:flex justify-center">
+        {/* Search Bar with Dropdown and Search Button */}
+        <div className="flex-1 hidden md:flex justify-center">
           <div className="flex w-[90%] md:w-[70%]">
             {/* Search Input */}
             <input
@@ -117,22 +117,38 @@ export default function Navbar() {
         <div className="md:hidden bg-white border-t border-gray-200">
           <ul className="flex flex-col items-center space-y-4 py-4">
             <li>
-              <Link href="/" className="hover:text-blue-500" onClick={() => setIsMenuOpen(false)}>
+              <Link
+                href="/"
+                className="hover:text-blue-500"
+                onClick={() => setIsMenuOpen(false)}
+              >
                 Profile
               </Link>
             </li>
             <li>
-              <Link href="/Message" className="hover:text-blue-500" onClick={() => setIsMenuOpen(false)}>
+              <Link
+                href="/Message"
+                className="hover:text-blue-500"
+                onClick={() => setIsMenuOpen(false)}
+              >
                 Message
               </Link>
             </li>
             <li>
-              <Link href="/Order" className="hover:text-blue-500" onClick={() => setIsMenuOpen(false)}>
+              <Link
+                href="/Order"
+                className="hover:text-blue-500"
+                onClick={() => setIsMenuOpen(false)}
+              >
                 Order
               </Link>
             </li>
             <li>
-              <Link href="/Mycart" className="hover:text-blue-500" onClick={() => setIsMenuOpen(false)}>
+              <Link
+                href="/Mycart"
+                className="hover:text-blue-500"
+                onClick={() => setIsMenuOpen(false)}
+              >
                 My Cart
               </Link>
             </li>
